@@ -1,2 +1,2 @@
-# arch_linux_bspwm_config
+# Arch Linux Bspwm dotfiles
 My customized arch linux desktop on bspwm, polybar, nvim configs,...
