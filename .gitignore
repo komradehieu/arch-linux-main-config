@@ -1,4 +1,5 @@
 audacious
+autostart
 Code
 dleyna-renderer-service.conf
 dleyna-server-service.conf
@@ -54,5 +55,5 @@ fcitx
 fcitx5
 chromium
 pavucontrol.ini
-.git
 dconf
+.git
