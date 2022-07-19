@@ -5,7 +5,7 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
-  opacity: 0.95
+  opacity: 0.8
   #decorations: none
   title : ''
   dynamic_title: false
