@@ -156,3 +156,8 @@ ctrl + super + o + p
  #turn on screen
 ctrl + super + u + i 
     xrandr --output eDP1 --auto
+
+ctrl + super + e
+    rofi -show emoji
+ctrl + super + c
+    rofi -show calc -no-show-match -no-sort 
