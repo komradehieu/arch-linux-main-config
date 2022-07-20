@@ -158,7 +158,7 @@ ctrl + super + u + i
     xrandr --output eDP1 --auto
 
 ctrl + super + c
-	rofi -show calc
+	  rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo '{result}' | xsel -b"
 
 ctrl + super + e
 	rofi -show emoji

@@ -1,21 +1,32 @@
 configuration {
-  display-drun: "Applications:";
+  display-drun: "";
+  display-calc: "";
+  display-emoji: "";
   display-window: "Windows:";
   drun-display-format: "{name}";
-  font: "JetBrainsMono Nerd Font Medium 12";
+  font: "Iosevka Nerd Font 13";
   show-icons : true;
-  modi: "window,run,drun";
+  modi: "window,run,drun,calc,emoji";
 }
 
 @theme "/dev/null"
 
 * {
-  bg: #32302f80;
-  bg-alt: #32302f80;
-  no-bg : #32302f00;
+  bg: #23213680;
+  bg-alt: #23213680;
+  no-bg : #23213600;
 
-  fg: #a9b665;
-  fg-alt: #dfbf8e;
+  fg: #c4a7e7;
+  fg-alt: #e0def4;
+
+  black: #817c9c;
+  red: #eb6f92;
+  green: #9ccfd8;
+  yellow: #f6c177;
+  blue: #3e8fb0;
+  magenta: #c4a7e7;
+  cyan: #ea9a97;
+  white: #e0def4;
 
   background-color: @no-bg;
   
@@ -26,9 +37,9 @@ configuration {
 }
 
 window {
-  width: 75%;
-  border : 2;
-  border-color : #dfbf8e;
+  width: 30%;
+  border : 0;
+/**  border-color : @fg; **/
   border-radius : 20;
 }
 
@@ -41,8 +52,9 @@ element {
 
 element selected {
   text-color: @fg;
-  border-color : #a9b665;
-  border : 1;
+  border-color : @fg;
+  border : 2;
+  border-radius : 10;
 
 }
 
@@ -54,8 +66,8 @@ element-text {
 }
 
 element-icon {
-  size: 50;
-  padding: 0 20 0 0;
+  size: 0;
+  padding: 0 0 0 0;
   background-color : @no-bg;
 	
 }
@@ -74,8 +86,8 @@ inputbar {
 listview {
   padding: 8 12;
   background-color: @bg;
-  columns: 3;
-  lines: 10;
+  columns: 1;
+  lines: 8;
 }
 
 mainbox {
