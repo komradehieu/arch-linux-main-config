@@ -1,0 +1,30 @@
+ls -la
+ls
+exit
+
+
+
+ls
+cd Download
+ls
+
+
+
+
+
+
+ls
+help
+device-info
+get emon55556.zip
+get emon55556.zip  ~/
+get emon55556.zip  ~
+get emon55556.zip  ~/home/comrade/
+cp emon55556.zip  ~/home/comrade/
+get emon55556.zip  ~/home/comrade/
+get emon55556.zip  ~/home/comrade
+get emon55556.zip
+get ~/home/comrade/ emon55556.zip
+get emon55556.zip
+get emon55556.zip  "~/home/comrade/"
+quit
